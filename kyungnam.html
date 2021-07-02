@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5add673a5114b158c12fdde76719978 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d5add673a5114b158c12fdde76719978" ></div>
+        
+</body>
+<script>    
+    
+            var map_d5add673a5114b158c12fdde76719978 = L.map(
+                "map_d5add673a5114b158c12fdde76719978",
+                {
+                    center: [35.1804486, 128.5523014],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ceb66b978f347969c64ea1c212f3e05 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d5add673a5114b158c12fdde76719978);
+        
+    
+            var marker_00e25f6a18294acfb46581c2f42d384e = L.marker(
+                [35.18035, 128.553385],
+                {}
+            ).addTo(map_d5add673a5114b158c12fdde76719978);
+        
+    
+            var icon_988acd42124644a4911e85910ac6c8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00e25f6a18294acfb46581c2f42d384e.setIcon(icon_988acd42124644a4911e85910ac6c8f3);
+        
+    
+        var popup_f2e407d69f0c4329bb9c34a68ae35736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd6d55032d9842eca34a52adeb98a3f2 = $(`<div id="html_cd6d55032d9842eca34a52adeb98a3f2" style="width: 100.0%; height: 100.0%;">경남대학교</div>`)[0];
+            popup_f2e407d69f0c4329bb9c34a68ae35736.setContent(html_cd6d55032d9842eca34a52adeb98a3f2);
+        
+
+        marker_00e25f6a18294acfb46581c2f42d384e.bindPopup(popup_f2e407d69f0c4329bb9c34a68ae35736)
+        ;
+
+        
+    
+    
+            var marker_986b14b341b7421a83c94269ee221225 = L.marker(
+                [35.1531629, 128.0994469],
+                {}
+            ).addTo(map_d5add673a5114b158c12fdde76719978);
+        
+    
+            var icon_2126743c2afc4d5496e2df082cba68df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_986b14b341b7421a83c94269ee221225.setIcon(icon_2126743c2afc4d5496e2df082cba68df);
+        
+    
+        var popup_dd3d7649043a40a997957b169b33e667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a48a01f287114aa1b9780ad6b1b0cc99 = $(`<div id="html_a48a01f287114aa1b9780ad6b1b0cc99" style="width: 100.0%; height: 100.0%;">경상대학교</div>`)[0];
+            popup_dd3d7649043a40a997957b169b33e667.setContent(html_a48a01f287114aa1b9780ad6b1b0cc99);
+        
+
+        marker_986b14b341b7421a83c94269ee221225.bindPopup(popup_dd3d7649043a40a997957b169b33e667)
+        ;
+
+        
+    
+    
+            var marker_924063bb048940a4afd0ea628271b0c9 = L.marker(
+                [35.245595, 128.691953],
+                {}
+            ).addTo(map_d5add673a5114b158c12fdde76719978);
+        
+    
+            var icon_ae2205374b884cfbae715f4547987c06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_924063bb048940a4afd0ea628271b0c9.setIcon(icon_ae2205374b884cfbae715f4547987c06);
+        
+    
+        var popup_8233f1a5a2114d5fa90d08e2f24b1e1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27c82117bbfb44ebb4d1d96014549f58 = $(`<div id="html_27c82117bbfb44ebb4d1d96014549f58" style="width: 100.0%; height: 100.0%;">창원대학교</div>`)[0];
+            popup_8233f1a5a2114d5fa90d08e2f24b1e1d.setContent(html_27c82117bbfb44ebb4d1d96014549f58);
+        
+
+        marker_924063bb048940a4afd0ea628271b0c9.bindPopup(popup_8233f1a5a2114d5fa90d08e2f24b1e1d)
+        ;
+
+        
+    
+</script>
